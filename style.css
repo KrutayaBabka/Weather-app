@@ -6,7 +6,11 @@
 }
 
 body {
-    background: #222; /*color of background of main*/
+    background: linear-gradient(135deg,#f5af19, #f12711); /*color of background of main*/
+    min-height: 100vh; /* Minimum height of the main block */
+    display: flex;
+    flex-direction: column;
+    /* background: #1a2a6c; color of background of main */
 }
 
 .card {
@@ -14,7 +18,7 @@ body {
     max-width: 470px; 
     background: linear-gradient(135deg, #00feba, #5b548a); /*color of card*/
     color: #fff; /*color of text*/
-    margin: 100px auto 0; /* Top padding in pixels */
+    margin: 64px auto 0; /* Top padding in pixels */
     border-radius: 30px; /* Rounding */
     padding: 40px 35px; /* Margins top/bottom, left/right */
     text-align: center;
