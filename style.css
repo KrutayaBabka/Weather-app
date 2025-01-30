@@ -39,7 +39,7 @@ body {
     font-size: 18px; /* Size of the text */
 }
 .search button {
-    border: 0;
+    border: 0; 
     outline: 0;
     background: #ebfffc; /* main color of search icon */
     border-radius: 50%; /* Rounding */
@@ -49,4 +49,39 @@ body {
 }
 .search button img {
     width: 20px; /* Width of the search image */
+}
+
+.weather-icon {
+    width: 170px; 
+    margin-top: 30px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 50px;
+}
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px; /* Width of icons */
+    margin-right: 10px; /* Indent from the text */
+}
+.humidity, .wind {
+    font-size: 28px;
+    margin-top: -6px;
 }
