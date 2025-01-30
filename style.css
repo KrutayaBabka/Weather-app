@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 body {
     background: #222; /*color of background of main*/
 }
@@ -36,4 +37,16 @@ body {
     height: 60px; /* Height of the input field */
     flex: 1; /* Causes the input field to stretch to take up the available space in the parent flex container*/
     font-size: 18px; /* Size of the text */
+}
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc; /* main color of search icon */
+    border-radius: 50%; /* Rounding */
+    width: 60px; /* Width of the search icon */
+    height: 60px; /* Height of the search icon */
+    cursor: pointer; /* Cursor type */
+}
+.search button img {
+    width: 20px; /* Width of the search image */
 }
