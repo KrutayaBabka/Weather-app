@@ -4,3 +4,36 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+body {
+    background: #222; /*color of background of main*/
+}
+
+.card {
+    width: 90%; 
+    max-width: 470px; 
+    background: linear-gradient(135deg, #00feba, #5b548a); /*color of card*/
+    color: #fff; /*color of text*/
+    margin: 100px auto 0; /* Top padding in pixels */
+    border-radius: 30px; /* Rounding */
+    padding: 40px 35px; /* Margins top/bottom, left/right */
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input {
+    border: 0; /* Removes the border from the input field */
+    outline: 0; /* Disables contour when focusing */
+    background: #ebfffc; /* main color of input button */
+    color: #555; /* color of text in the input*/
+    margin-right: 16px; /* Indent from search image */
+    border-radius: 30px; /* Rounding */
+    padding: 10px 25px; /* Margins top/bottom, left/right */
+    height: 60px; /* Height of the input field */
+    flex: 1; /* Causes the input field to stretch to take up the available space in the parent flex container*/
+    font-size: 18px; /* Size of the text */
+}
